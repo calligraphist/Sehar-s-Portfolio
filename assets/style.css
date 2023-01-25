@@ -1,0 +1,123 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* setting psudoclass and declaring variables*/
+:root {
+    --background: rgb(23, 23, 36); 
+    --dark:rgb(2, 2, 147);
+    --light:rgb(95, 95, 201);
+    --yellow: yellow;  
+}
+
+body {
+    color:var(--dark);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:var(--background);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:var(--dark);
+    padding: 20px 20px;
+    color: var(--background);  
+        background-image: fixed;
+    background-position: 100%;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;  
+    justify-content: flex-start;
+}
+
+header a {
+    text-decoration: none;
+    color:var(--light);
+}
+
+header nav {
+    margin: 7px 0;
+    justify-content: flex-end;
+    align-items: right;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    align-items: right;
+    list-style: none;
+    
+}
+header nav ul li a {
+    color: var(--light);
+    margin: 0 30px;
+    font-size: 23;
+    text-decoration: underline;
+    justify-content: flex-end;
+}
+
+header nav ul li a:hover {
+    color: var(--yellow);
+}
+
+#contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding:50px;
+    /* flex-flow: row ; */
+}
+.contact ul {
+    border: none;
+    align-items:  center;
+}
+
+.contact ul{
+    display:flex;
+    border-left: solid 4px var(--dark);
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;  
+    margin-right: 110px;
+}
+
+.contact ul li {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0 0 0 55px ;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: underline;
+    padding: 0 15px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: var(--dark)
+}
+
+.contact a:hover {
+    color: var(--yellow);
+    background-color: var(--dark);
+    border-radius: 15px;
+}
+    
+@media screen and (max-width: 980px) {
+    header {
+        position: relative;
+        padding-bottom: 0;
+        justify-content: center;
+    }
+}
