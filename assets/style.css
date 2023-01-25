@@ -23,7 +23,7 @@ header {
     background-color:var(--dark);
     padding: 20px 20px;
     color: var(--background);  
-        background-image: fixed;
+    background-image: fixed;
     background-position: 100%;
 }
 
@@ -47,7 +47,7 @@ header nav {
 
 header nav ul {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: right;
     list-style: none;
@@ -70,11 +70,11 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: flex-start;
     padding:50px;
-    /* flex-flow: row ; */
+    flex-flow: row ; 
 }
 .contact ul {
     border: none;
-    align-items:  center;
+    align-items: center;
 }
 
 .contact ul{
@@ -93,7 +93,7 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bolder;
     margin: 0 0 0 55px ;
     justify-content: center;
@@ -120,4 +120,30 @@ header nav ul li a:hover {
         padding-bottom: 0;
         justify-content: center;
     }
+}
+#about-me, #work, #contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding:50px;
+    flex-flow: row ;
+}
+h2 {
+    font-size: xx-large;
+    padding: 0 10px;
+   text-align: right;
+}
+.personal  {
+    display:flex;   
+}
+.personal-info {
+    display: flex;
+    position: relative;
+    padding: 0 10px;
+    flex-wrap: wrap;
+    border-left: 4px solid var(--dark);
+    padding: 50px;
+    text-align: left;
+    width: 100%;
+    margin-right: -50px;
 }
