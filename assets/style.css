@@ -5,7 +5,7 @@
 }
 /* setting psudoclass and declaring variables*/
 :root {
-    --background: rgb(23, 23, 36); 
+    --background: rgb(46, 46, 70); 
     --dark:rgb(75, 75, 203);
     --light:black;
     --yellow: yellow;  
@@ -282,7 +282,7 @@ h2 {
 .item-2, .item-3, .item-4, .item-5, .item-6 {
     width: 100%;
     min-height: 150px;
-    display: block;
+    display: flex;
     opacity: .8;
     transition-duration: 1s;
     text-decoration: none;

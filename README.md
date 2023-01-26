@@ -40,4 +40,10 @@ The following animation shows the web application's appearance and functionality
 
 ![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
 - - -
+
+## credits
+code is inspired by https://billy4c.github.io/
+Thank you!
+
+
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
