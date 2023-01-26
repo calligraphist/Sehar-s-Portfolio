@@ -121,6 +121,27 @@ header nav ul li a:hover {
         justify-content: center;
     }
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        position: relative;
+        padding-bottom: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }    
+}
+
+@media screen and (max-width: 375px) {
+    header {
+        width: 100%;
+        padding: 0 40px 0 0;
+        justify-content: center;
+        position:sticky;
+        position: -webkit-sticky;
+    }
+}
+
 #about-me, #work, #contact-me {
     display: flex;
     flex-wrap: wrap;
@@ -340,7 +361,7 @@ h2 {
     opacity: 1;
     background-color: none;
 }
-.item-6 {
+/*.item-6 {
     background-image: url("./images/0.jpg");
     background-size: cover;
     grid-column: 3 / span 1;
@@ -353,6 +374,7 @@ h2 {
     opacity: 1;
     background-color: none;
 }
+*/
 .item-text {
     display:flex;
     position: relative;
