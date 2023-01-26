@@ -1,7 +1,7 @@
 ## Sehar's-Portfolio
 ## my portfolio for bootcamp
 
-
+This portpholio shows my work during coding bootcamp.
 
 
 ## User Story
