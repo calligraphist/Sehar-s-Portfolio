@@ -5,9 +5,9 @@
 }
 /* setting psudoclass and declaring variables*/
 :root {
-    --background: rgb(46, 46, 70); 
-    --dark:rgb(75, 75, 203);
-    --light:black;
+    --background: rgb(214, 238, 218); 
+    --dark:rgb(38, 35, 241);
+    --light:rgb(141, 253, 173);
     --yellow: yellow;  
 }
 
@@ -150,8 +150,8 @@ h2 {
 
 .hero {
     display: flex;
-    background-image: url("./images/20230112_080515.jpg");
-     background-attachment: scroll; 
+    background-image: url("./images/20230303_100306.jpg");
+    background-attachment: scroll; 
     background-size: cover;
     background-position: 100%;
     padding: 250px;
