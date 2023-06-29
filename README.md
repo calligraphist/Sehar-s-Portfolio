@@ -36,12 +36,12 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 https://calligraphist.github.io/Sehar-s-Portfolio/
 
-## Mock-Up
+<!-- ## Mock-Up
 
 The following animation shows the web application's appearance and functionality:
 
 ![portfolio demo](./Mochup/02-advanced-css-homework-demo.gif)
-- - -
+- - - -->
 
 ## credits
 code is inspired by https://billy4c.github.io/

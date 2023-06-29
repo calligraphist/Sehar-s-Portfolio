@@ -5,10 +5,10 @@
 }
 /* setting psudoclass and declaring variables*/
 :root {
-    --background: rgb(214, 238, 218); 
-    --dark:rgb(38, 35, 241);
-    --light:rgb(141, 253, 173);
-    --yellow: yellow;  
+    --background: rgb(214, 228, 238); 
+    --dark:rgb(71, 68, 224);
+    --light:rgb(9, 9, 31);
+    --yellow: rgb(243, 247, 244);  
 }
 
 body {
@@ -257,7 +257,7 @@ h2 {
 
 .item-1 {
     display: flex;
-    background-image: url("./images/horiseon.png");
+    background-image: url("./images/A.png");
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
     background-size: cover;
@@ -274,6 +274,29 @@ h2 {
 }
 
 .item-1:hover {
+    opacity: 1;
+    background-color: none;
+}
+
+.item-11 {
+    display: flex;
+    background-image: url("./images/one.png");
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    background-size: cover;
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 300px;
+    opacity: .8;
+    transition-duration: 1s;
+    background-color: var(--yellow);
+    text-align: center;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.item-11:hover {
     opacity: 1;
     background-color: none;
 }
